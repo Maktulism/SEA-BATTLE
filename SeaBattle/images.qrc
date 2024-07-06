@@ -1,0 +1,16 @@
+<!DOCTYPE RCC><RCC version="1.0">
+<qresource prefix="/">
+    <file>images/LoadingScreenBackground.png</file>
+    <file>images/logo.png</file>
+    <file>images/ic_launcher.png</file>
+    <file>images/paper.png</file>
+    <file>images/LoadingScreenProgress.png</file>
+    <file>images/desk.jpg</file>
+    <file>images/seabattle.ttf</file>
+    <file>images/seabattle_asia.ttf</file>
+    <file>images/rouble.otf</file>
+    <file>images/single_player.png</file>
+    <file>images/locale_player.png</file>
+    <file>images/online_player.png</file>
+</qresource>
+</RCC>

@@ -1,0 +1,11 @@
+<RCC>
+  <qresource prefix="/">
+    <file>images/LoadingScreenBackground.png</file>
+    <file>images/locale_player.png</file>
+    <file>images/online_player.png</file>
+    <file>images/single_player.png</file>
+    <file>images/desk.png</file>
+    <file>musics/LoadingMusic.mp3</file>
+    <file>fonts/seabattle.ttf</file>
+  </qresource>
+</RCC>

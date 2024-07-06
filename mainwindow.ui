@@ -1,0 +1,250 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Sea Battle</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <layout class="QVBoxLayout" name="verticalLayout">
+    <item>
+     <widget class="QStackedWidget" name="stackedWidget">
+      <property name="currentIndex">
+       <number>2</number>
+      </property>
+      <widget class="QWidget" name="loadingScreen">
+       <layout class="QVBoxLayout" name="verticalLayout_loading">
+        <item>
+         <widget class="QLabel" name="backgroundLabel">
+          <property name="styleSheet">
+           <string>
+            background-image: url(:/images/LoadingScreenBackground.png);
+            background-repeat: no-repeat;
+            background-position: center;
+           </string>
+          </property>
+          <property name="alignment">
+           <set>Qt::AlignCenter</set>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QProgressBar" name="loadingProgressBar">
+          <property name="styleSheet">
+           <string>
+            QProgressBar {
+                border: 1px solid black;
+                border-radius: 5px;
+                background: transparent;
+                padding: 1px;
+                text-align: center;
+                background-image: url(:/images/LoadingScreenProgress.png);
+                background-repeat: no-repeat;
+                background-position: center;
+            }
+            QProgressBar::chunk {
+                background-color: #05B8CC;
+                width: 20px;
+                margin: 0.5px;
+            }
+           </string>
+          </property>
+          <property name="minimum">
+           <number>0</number>
+          </property>
+          <property name="maximum">
+           <number>100</number>
+          </property>
+          <property name="value">
+           <number>0</number>
+          </property>
+          <property name="textVisible">
+           <bool>false</bool>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </widget>
+      <widget class="QWidget" name="loginScreen">
+       <property name="styleSheet">
+        <string>
+         background-image: url(:/images/desk.jpg);
+         background-repeat: no-repeat;
+         background-position: center;
+        </string>
+       </property>
+       <layout class="QVBoxLayout" name="verticalLayout_login">
+        <item>
+         <widget class="QLabel" name="usernameLabel">
+          <property name="text">
+           <string>Username:</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QLineEdit" name="usernameEdit"/>
+        </item>
+        <item>
+         <widget class="QLabel" name="passwordLabel">
+          <property name="text">
+           <string>Password:</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QLineEdit" name="passwordEdit">
+          <property name="echoMode">
+           <enum>QLineEdit::Password</enum>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QPushButton" name="loginButton">
+          <property name="styleSheet">
+           <string>
+            QPushButton {
+                font-size: 18px;
+                padding: 10px;
+                border: 2px solid #4CAF50;
+                border-radius: 10px;
+                background-color: #4CAF50;
+                color: white;
+            }
+            QPushButton:hover {
+                background-color: #45a049;
+            }
+           </string>
+          </property>
+          <property name="text">
+           <string>Login</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QPushButton" name="signUpButton">
+          <property name="styleSheet">
+           <string>
+            QPushButton {
+                font-size: 18px;
+                padding: 10px;
+                border: 2px solid #008CBA;
+                border-radius: 10px;
+                background-color: #008CBA;
+                color: white;
+            }
+            QPushButton:hover {
+                background-color: #007bb5;
+            }
+           </string>
+          </property>
+          <property name="text">
+           <string>Sign Up</string>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </widget>
+      <widget class="QWidget" name="gameMenu">
+       <property name="styleSheet">
+        <string>
+         background-image: url(:/images/desk.jpg);
+         background-repeat: no-repeat;
+         background-position: center;
+        </string>
+       </property>
+       <layout class="QVBoxLayout" name="verticalLayout_menu">
+        <item>
+         <widget class="QPushButton" name="singlePlayerButton">
+          <property name="styleSheet">
+           <string>
+            QPushButton {
+                font-size: 18px;
+                padding: 10px;
+                border: 2px solid #4CAF50;
+                border-radius: 10px;
+                background-color: #4CAF50;
+                color: white;
+            }
+            QPushButton:hover {
+                background-color: #45a049;
+            }
+           </string>
+          </property>
+          <property name="text">
+           <string>Single Player</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QPushButton" name="multiPlayerButton">
+          <property name="styleSheet">
+           <string>
+            QPushButton {
+                font-size: 18px;
+                padding: 10px;
+                border: 2px solid #008CBA;
+                border-radius: 10px;
+                background-color: #008CBA;
+                color: white;
+            }
+            QPushButton:hover {
+                background-color: #007bb5;
+            }
+           </string>
+          </property>
+          <property name="text">
+           <string>Multiplayer</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QPushButton" name="onlinePlayButton">
+          <property name="styleSheet">
+           <string>
+            QPushButton {
+                font-size: 18px;
+                padding: 10px;
+                border: 2px solid #f44336;
+                border-radius: 10px;
+                background-color: #f44336;
+                color: white;
+            }
+            QPushButton:hover {
+                background-color: #da190b;
+            }
+           </string>
+          </property>
+          <property name="text">
+           <string>Online Play</string>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </widget>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>800</width>
+     <height>21</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

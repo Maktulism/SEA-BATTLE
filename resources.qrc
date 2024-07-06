@@ -1,0 +1,7 @@
+<RCC>
+    <qresource prefix="/">
+        <file>images/LoadingScreenBackground.png</file>
+        <file>images/LoadingScreenProgress.png</file>
+        <file>images/PaperBackground.png</file>
+    </qresource>
+</RCC>

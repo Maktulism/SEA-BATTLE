@@ -1,0 +1,11 @@
+debug/loadingscreen.o
+debug/main.o
+debug/mainwindow.o
+debug/loginwindow.o
+debug/gamemenu.o
+debug/qrc_images.o
+debug/qrc_musics.o
+debug/moc_loadingscreen.o
+debug/moc_mainwindow.o
+debug/moc_loginwindow.o
+debug/moc_gamemenu.o

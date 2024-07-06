@@ -1,0 +1,11 @@
+release/loadingscreen.o
+release/main.o
+release/mainwindow.o
+release/loginwindow.o
+release/gamemenu.o
+release/qrc_images.o
+release/qrc_musics.o
+release/moc_loadingscreen.o
+release/moc_mainwindow.o
+release/moc_loginwindow.o
+release/moc_gamemenu.o
