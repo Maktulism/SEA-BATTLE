@@ -1,0 +1,58 @@
+.t_layout {
+    padding: 64px;
+    border: none;
+}
+
+.t_scroll {
+    border-width: 1px;
+    border-color: black;
+    max-height: 352px;
+    padding: 0;
+    scroll-step: 10;
+    scroll-bar-step: 50;
+}
+
+.t_container {
+}
+
+.t_row {
+    background-color: #2F2F2F;
+}
+
+.t_id {
+    color: white;
+    font-size: 24px;
+    width: 100px;
+    padding: 0 15px;
+    border-right-width: 2px;
+    border-right-color: black;
+}
+
+.t_game {
+    color: #eeeeee;
+    font-size: 24px;
+    width: 480px;
+    padding-left: 15px;
+}
+
+.t_row:hover .t_id, .t_row:hover .t_game {
+    background-color: rgba(255, 20, 20, .4);
+}
+
+.t_btn {
+    border: none;
+    background: none;
+    border-radius: 0;
+    background-image: url(":/icons/icon_join.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 24px;
+    width: 42px;
+    height: 30px;
+    font-size: 15.8px;
+}
+
+.t_btn:hover {
+    box-shadow: none;
+    background-color: rgba(0, 255, 0, .7);
+}

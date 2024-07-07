@@ -1,0 +1,12 @@
+.wait_text {
+    color: rgb(200, 200, 200);
+    font-size: 24px;
+    text-align: center;
+}
+
+.wait_img {
+    background-image: url(":/icons/icon_wait.gif");
+    background-size: 256px;
+    background-repeat: no-repeat;
+    background-position: center;
+}

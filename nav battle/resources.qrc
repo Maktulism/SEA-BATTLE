@@ -1,0 +1,23 @@
+<RCC>
+    <qresource prefix="/">
+        <file>icons/icon_join.png</file>
+        <file>icons/icon_wait.gif</file>
+        <file>images/bg-game.jpg</file>
+        <file>images/body.png</file>
+        <file>images/damaged.png</file>
+        <file>images/empty.png</file>
+        <file>images/head.png</file>
+        <file>images/tail.png</file>
+        <file>images/water.jpg</file>
+        <file>images/water-180.jpg</file>
+        <file>images/water-270.jpg</file>
+        <file>images/water-90.jpg</file>
+        <file>styles/background.css</file>
+        <file>styles/button.css</file>
+        <file>styles/dark_design.css</file>
+        <file>styles/game.css</file>
+        <file>styles/network.css</file>
+        <file>styles/table.css</file>
+        <file>styles/wait.css</file>
+    </qresource>
+</RCC>
