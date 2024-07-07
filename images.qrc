@@ -1,0 +1,19 @@
+<!DOCTYPE RCC><RCC version="1.0">
+<qresource prefix="/">
+    <file>E:/Erfan/SeaLogin/images/LoadingScreenBackground.png</file>
+    <file>E:/Erfan/SeaLogin/images/logo.png</file>
+    <file>E:/Erfan/SeaLogin/images/ic_launcher.png</file>
+    <file>E:/Erfan/SeaLogin/images/paper.png</file>
+    <file>E:/Erfan/SeaLogin/images/LoadingScreenProgress.png</file>
+    <file>E:/Erfan/SeaLogin/images/textures/desk.jpg</file>
+    <file>E:/Erfan/SeaLogin/images/seabattle.ttf</file>
+    <file>E:/Erfan/SeaLogin/images/seabattle_asia.ttf</file>
+    <file>E:/Erfan/SeaLogin/images/rouble.otf</file>
+    <file>E:/Erfan/SeaLogin/images/single_player.png</file>
+    <file>E:/Erfan/SeaLogin/images/locale_player.png</file>
+    <file>E:/Erfan/SeaLogin/images/online_player.png</file>
+    <file>E:/Erfan/SeaLogin/images/desk.png</file> 
+    <file>E:/Erfan/SeaLogin/images/desk2.jpg</file>
+</qresource>
+</RCC>
+
